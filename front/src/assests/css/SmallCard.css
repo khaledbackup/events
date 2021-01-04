@@ -1,0 +1,11 @@
+
+
+  .SmallCard{
+      border-radius: 5px;
+  }
+  .SmallCardImg{
+    border-radius: 5px 5px 0px 0px;
+  }
+  .CardTitle{
+    height:20%;
+  }

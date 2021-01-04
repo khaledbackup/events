@@ -1,0 +1,47 @@
+.SmallCardContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+   
+}
+@media only screen and (max-width: 1200px)  {
+    .SmallCardContainer{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-row-gap: 50px;
+      
+        grid-column-gap:50px;
+    }
+        
+  }
+
+  @media only screen and (max-width: 992px)  {
+    .SmallCardContainer{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-row-gap: 40px;
+      
+        grid-column-gap:20px;
+    }
+        
+  }
+@media only screen and (max-width: 768px)  {
+    .SmallCardContainer{
+        display: flex;
+        flex-direction: column;
+       
+       
+        
+    }
+        
+  }
+  @media only screen and (max-width: 576px)  {
+    .SmallCardContainer{
+        display: flex;
+        flex-direction: column;
+        padding:5%
+        
+    }
+        
+  }
+  
